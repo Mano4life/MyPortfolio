@@ -1,0 +1,251 @@
+
+.me {
+  width: 445px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -10;
+  filter: grayscale(1) brightness(50%);
+}
+
+
+/* ============ MEDIA QUERY ================= */
+
+@media (max-width: 1700px) {
+  .wrapper {
+    width: 66%;
+  }
+
+}
+
+@media (max-width: 1571px) {
+  .wrapper {
+    width: 70%;
+  }
+
+}
+
+@media (max-width: 1202px) {
+  .wrapper {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 100%;
+    padding: 0 3rem;
+    overflow: hidden;
+  }
+}
+@media (max-width: 780px) {
+  .wrapper {
+    width: 100%;
+    padding: 0 3rem;
+  }
+  .header {
+    padding-top: 1em;
+}
+}
+
+@media (max-width: 625px) {
+  /* ====================== wrapper ====================== */
+  body {
+    width: 100%;
+  }
+  .wrapper {
+    width: 100%;
+    padding: 0 1rem;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+
+
+  /* ====================== skills ====================== */
+  .skills {
+    text-align: center;
+    border-bottom: 2px solid var(--mainTxt);
+    padding-bottom: 4rem;
+  }
+  .skills .row {
+    margin: 0 !important;
+  }
+
+  .skills .row .skillsTitle {
+    margin-top: 2rem;
+  }
+
+  .skills .row .experience {
+    margin-top: 0.1rem;
+  }
+
+  /* ====================== projects ====================== */
+  .projectsContainer {
+    margin-top: 0;
+    padding: 4rem 0;
+    text-align: initial;
+    border-bottom: 2px solid var(--mainTxt);
+  }
+  .firstRow {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .projectHeader {
+    font-size: 2.3em;
+  }
+
+  /* ====================== contact ====================== */
+  .contactContainer {
+    text-align: center;
+  }
+  .contactHeader {
+    font-size: 2.6rem;
+    letter-spacing: initial;
+  }
+  .contactText {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  /* ====================== footer ====================== */
+  .footer {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+  }
+  .footer nav {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  /* ====================== wrapper ====================== */
+  body {
+    width: 100%;
+  }
+  .wrapper {
+    width: 100%;
+    padding: 0 1rem;
+    text-align: center;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  /* ====================== header ====================== */
+  .header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  .header nav {
+    flex-direction: column;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  /* ====================== hero ====================== */
+  .heroText {
+    width: 100%;
+    padding: 0;
+    margin-top: 21rem;
+    letter-spacing: normal;
+    line-height: normal;
+    font-size: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero h1 {
+    font-size: 2.2rem;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+
+  .hero p {
+    width: 100%;
+    font-size: 1.1rem;
+  }
+
+  .hero .adam {
+    display: none;
+  }
+
+  .me {
+    width: 13rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: -1;
+  }
+
+  .heroBtn {
+    margin-top: 1rem;
+  }
+  .rings {
+    z-index: -2;
+  }
+  .circle {
+    top: 19rem;
+  }
+  /* ====================== skills ====================== */
+  .skills {
+    text-align: center;
+    border-bottom: 2px solid var(--mainTxt);
+    padding-bottom: 4rem;
+  }
+  .skills .row {
+    margin: 0 !important;
+  }
+
+  .skills .row .skillsTitle {
+    margin-top: 2rem;
+  }
+
+  .skills .row .experience {
+    margin-top: 0.1rem;
+  }
+
+  /* ====================== projects ====================== */
+  .projectsContainer {
+    margin-top: 0;
+    padding: 4rem 0;
+    text-align: initial;
+    border-bottom: 2px solid var(--mainTxt);
+  }
+  .firstRow {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .projectHeader {
+    font-size: 2.3em;
+  }
+
+  /* ====================== contact ====================== */
+  .contactContainer {
+    text-align: center;
+  }
+  .contactHeader {
+    font-size: 2.6rem;
+    letter-spacing: initial;
+  }
+  .contactText {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  /* ====================== footer ====================== */
+  .footer {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+  }
+  .footer nav {
+    flex-direction: column;
+  }
+}
