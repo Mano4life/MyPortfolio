@@ -9,6 +9,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: './mywork.component.css'
 })
 export class MyworkComponent {
+  linkedin: string = "https://www.linkedin.com/in/momen-helmi/"
   basePath:string = 'assets/mywork';
   baseUrl:string = 'https://github.com/Mano4life/'
   projects = [
