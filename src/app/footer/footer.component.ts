@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-
+  github: string = "https://github.com/Mano4life"
+  linkedin: string = "https://www.linkedin.com/in/momen-helmi/"
+  instagram: string = "https://www.instagram.com/momenhelmy101/"
 }

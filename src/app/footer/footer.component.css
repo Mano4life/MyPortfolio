@@ -1,0 +1,39 @@
+.footer {
+  max-width: inherit;
+  padding: 3rem 2rem 5rem 0;
+  color: var(--mainTxt);
+}
+
+.footer i { 
+  color: var(--mainTxt);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.footer i:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 625px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+  }
+  .footer nav {
+    flex-direction: column;
+  }
+}
+
+
+@media (max-width: 480px) {
+    .footer {
+      display: flex;
+      justify-content: center;
+      padding: 4rem 0;
+    }
+    .footer nav {
+      flex-direction: column;
+    }
+}

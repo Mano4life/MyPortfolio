@@ -36,15 +36,6 @@
     z-index: -1;
   }
 
-  /* ====================== footer ====================== */
-  .footer {
-    display: flex;
-    justify-content: center;
-    padding: 4rem 0;
-  }
-  .footer nav {
-    flex-direction: column;
-  }
 }
 
 @media (max-width: 480px) {
@@ -57,15 +48,5 @@
     right: 0;
     margin: 0 auto;
     z-index: -1;
-  }
-
-  /* ====================== footer ====================== */
-  .footer {
-    display: flex;
-    justify-content: center;
-    padding: 4rem 0;
-  }
-  .footer nav {
-    flex-direction: column;
   }
 }
