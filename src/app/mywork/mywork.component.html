@@ -1,0 +1,27 @@
+<div class="container-full projectsContainer">
+  <div class="row firstRow">
+    <div class="col-6 projectHeader">Projects</div>
+    <div class="col-6 text-end"><a href="#contact-me" class="btn">contact me</a></div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6" *ngFor="let project of projects">
+      <div class="card transparent">
+        <img
+          [src]="project.imgSrc"
+          class="card-top"
+          alt="..."
+        />
+        <div class="card-body d-flex align-items-center justify-content-between">
+          <div>
+            <h5 class="card-title">{{project.title}}</h5>
+            <p class="card-text">
+              <span *ngFor="let tech of project.technologies">{{ tech }}</span>
+            </p>
+          </div>
+          <a [href]="project.link" class="btn" target="_blank">see project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

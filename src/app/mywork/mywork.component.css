@@ -1,0 +1,33 @@
+
+.projectsContainer {
+  margin-top: 10rem;
+  border-bottom: 2px solid var(--mainTxt);
+}
+
+.projectHeader {
+  font-size: 88px;
+  letter-spacing: -2.5px;
+  color: var(--mainTxt);
+}
+
+.card {
+  margin-top: 5rem;
+  color: var(--mainTxt);
+  text-transform: uppercase;
+}
+
+.card-top {
+  height: 400px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card-text {
+  color: var(--smallTxt);
+  display: flex;
+  gap: 1rem;
+}
