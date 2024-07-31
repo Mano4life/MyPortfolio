@@ -8,12 +8,7 @@
 .title {
   font-size: 1.5rem;
   font-size: clamp(1.5rem, 1.0229007633587786rem + 2.035623409669211vw, 2rem);
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-}
-
-.title:hover {
-  color: var(--accent);
+  cursor: default;
 }
 
 .icons {

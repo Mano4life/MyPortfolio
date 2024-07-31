@@ -4,6 +4,10 @@
   color: var(--mainTxt);
 }
 
+.footer .title {
+  cursor: default;
+}
+
 .footer i { 
   color: var(--mainTxt);
   font-size: 1.5rem;
