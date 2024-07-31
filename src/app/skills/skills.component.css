@@ -1,0 +1,27 @@
+.skills-section {
+  position: relative;
+  overflow-x: hidden;
+}
+
+.skillsTitle {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  color: var(--mainTxt);
+}
+
+.skills-section .row .experience {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--smallTxt);
+  margin-top: 1.5rem;
+  letter-spacing: normal;
+}
+
+.skills-section .rings2 {
+  position: absolute;
+  bottom: 0;
+  right: -10rem;
+  /* top: 69rem; */
+  /* right: -25rem; */
+}
