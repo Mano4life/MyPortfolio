@@ -10,4 +10,5 @@ import { Component } from '@angular/core';
 export class HeroComponent {
   circlePattern: string = "assets/pattern-circle.svg";
   ringsPattern: string = "assets/pattern-rings.svg";
+  mycv: string = "https://drive.google.com/file/d/1DWd6J4uJ_4thsYEYUfHuAJMRYndQBmTt/view?usp=sharing"
 }
