@@ -1,0 +1,96 @@
+.contactContainer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  border-bottom: 2px solid var(--mainTxt);
+  position: relative;
+}
+
+.contactHeader {
+  font-size: 88px;
+  font-weight: 700;
+  letter-spacing: -2.5px;
+  color: var(--mainTxt);
+}
+
+.contactText {
+  margin-top: 2rem;
+  padding-right: 5rem;
+  color: var(--smallTxt);
+}
+
+form input {
+  background-color: transparent;
+  border: none;
+  color: var(--mainTxt);
+  padding: 1rem;
+  border-bottom: 1px solid var(--mainTxt);
+  margin-top: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+form input:hover,
+form input:active {
+  border-bottom: 1px solid var(--accent);
+}
+
+form #message {
+  padding-bottom: 4rem;
+}
+
+form .btnContact {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.rings3 {
+  position: absolute;
+  bottom: 14rem;
+  left: -20rem;
+}
+
+@media (max-width: 768px) {
+  .contactContainer {
+    text-align: center;
+  }
+  .contactHeader {
+    font-size: 60px;
+  }
+  .contactText {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    padding: 0;
+  }
+}
+
+@media (max-width: 625px) {
+  .contactContainer {
+    text-align: center;
+  }
+  .contactHeader {
+    font-size: 2.6rem;
+    letter-spacing: initial;
+  }
+  .contactText {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding: 0;
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .contactContainer {
+    text-align: center;
+  }
+  .contactHeader {
+    font-size: 2.6rem;
+    letter-spacing: initial;
+  }
+  .contactText {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding: 0;
+    margin: 1rem 0;
+  }
+}

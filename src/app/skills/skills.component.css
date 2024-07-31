@@ -25,3 +25,42 @@
   /* top: 69rem; */
   /* right: -25rem; */
 }
+
+@media (max-width: 625px) {
+  .skills {
+    text-align: center;
+    border-bottom: 2px solid var(--mainTxt);
+    padding-bottom: 4rem;
+  }
+  .skills .row {
+    margin: 0 !important;
+  }
+
+  .skills .row .skillsTitle {
+    margin-top: 2rem;
+  }
+
+  .skills .row .experience {
+    margin-top: 0.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+
+    .skills {
+    text-align: center;
+    border-bottom: 2px solid var(--mainTxt);
+    padding-bottom: 4rem;
+  }
+  .skills .row {
+    margin: 0 !important;
+  }
+
+  .skills .row .skillsTitle {
+    margin-top: 2rem;
+  }
+
+  .skills .row .experience {
+    margin-top: 0.1rem;
+  }
+}

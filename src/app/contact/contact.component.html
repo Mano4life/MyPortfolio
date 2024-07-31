@@ -1,0 +1,21 @@
+<div class="container-full contactContainer">
+  <div class="row">
+    <div class="col-md-6">
+      <h1 class="contactHeader">Contact</h1>
+      <p class="contactText">
+        I would love to hear about your project and how I could help.
+        PLease fill in the form, and I'll get back to you as soon as
+        possible
+      </p>
+    </div>
+    <div class="col-md-6">
+      <form class="d-flex flex-column" (submit)="onSubmit()">
+        <input type="text" id="name" placeholder="NAME" required />
+        <input type="email" id="email" placeholder="EMAIL" required />
+        <input type="text" id="message" placeholder="MESSAGE" required />
+        <div class="btn btnContact align-self-end">send message</div>
+      </form>
+    </div>
+  </div>
+  <img class="rings3" src="assets/pattern-rings.svg" alt="rings3" />
+</div>

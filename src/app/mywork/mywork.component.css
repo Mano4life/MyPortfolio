@@ -31,3 +31,36 @@
   display: flex;
   gap: 1rem;
 }
+
+@media (max-width: 625px) {
+    .projectsContainer {
+      margin-top: 0;
+      padding: 4rem 0;
+      text-align: initial;
+      border-bottom: 2px solid var(--mainTxt);
+    }
+    .firstRow {
+      justify-content: space-between;
+      align-items: center;
+    }
+    .projectHeader {
+      font-size: 2.3em;
+    }
+  
+}
+
+@media (max-width: 480px) {
+    .projectsContainer {
+      margin-top: 0;
+      padding: 4rem 0;
+      text-align: initial;
+      border-bottom: 2px solid var(--mainTxt);
+    }
+    .firstRow {
+      justify-content: space-between;
+      align-items: center;
+    }
+    .projectHeader {
+      font-size: 2.3em;
+    }
+}
