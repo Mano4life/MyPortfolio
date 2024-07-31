@@ -59,13 +59,7 @@ body {
   font-weight: 500;
 }
 
-.wrapper {
-  width: 58%;
-  margin-inline: auto;
-  position: relative;
-}
-
-.container {
+.container-lg {
   position: relative;
 }
 

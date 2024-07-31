@@ -53,3 +53,17 @@ i:hover {
   }
   
 }
+
+@media (max-width: 480px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+  }
+  .header nav {
+    flex-direction: column;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}
